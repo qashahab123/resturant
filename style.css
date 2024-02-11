@@ -1,14 +1,14 @@
 @font-face{
   font-family: monstera;
-  src: url(../font/monstera.ttf);
+  src: url(monstera.ttf);
 }
 @font-face{
   font-family: grandhotel;
-  src: url(../font/grandhotel-regular.otf);
+  src: url(grandhotel-regular.otf);
 }
 @font-face{
   font-family: myriadpro;
-  src: url(../font/FontsFree-Net-MYRIADPRO-REGULAR.ttf);
+  src: url(FontsFree-Net-MYRIADPRO-REGULAR.ttf);
 }
 
 
