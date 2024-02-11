@@ -33,8 +33,7 @@
 .item13 { grid-area: other; }
 
 .grid-container {
-  border: 1px solid red;
-  display: grid;
+   display: grid;
   grid-template-areas:
     'header header header menu menu menu'
     'main main main main main main'
