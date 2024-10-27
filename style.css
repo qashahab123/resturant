@@ -303,7 +303,7 @@ button{
   position: absolute;
   top: 115vw;
   right: 72vw;
-  font-size: 3%;
+  font-size: 1vw;
   font-weight: bold;
   font-family: myriadpro;
 }
@@ -311,7 +311,7 @@ button{
   position: absolute;
   top: 24vw;
   right: 40vw;
-  font-size: 3%;
+  font-size: 1vw;
   font-weight: bold;
 }
 #q{
