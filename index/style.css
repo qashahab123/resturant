@@ -10,14 +10,6 @@
   font-family: myriadpro;
   src: url(../font/FontsFree-Net-MYRIADPRO-REGULAR.ttf);
 }
-
-
-
-
-
-
-
-
 .right { grid-area: header; }
 .left { grid-area: menu; }
 .bs { grid-area: main; }
@@ -33,7 +25,6 @@
 .item13 { grid-area: other; }
 
 .grid-container {
-  border: 1px solid red;
   display: grid;
   grid-template-areas:
     'header header header menu menu menu'
@@ -49,105 +40,125 @@ body{
   margin: 0;
   background-color: #303030;
 }
-.grid-container > div {
-}
 .left{
-  width: 683px;
+  width: 55vw;
   background-color: #303030;
+}
+.right{
   position: relative;
+  width: 45vw;
+
 }
 #j{
   float: left;
-}
-#i{
-  float: right;
-  height: 61vw;
-  position: absolute;
-  right: 383px;
+  width: 45vw;
 }
 ul{
-  padding-right: 150px;
-  padding-top: 22px;
-  margin-top: 11px;
+  padding-right: 5vw;
+  margin-top: 4vw;
 }
 li{
   padding-left: 3.5vw;
   float: left;
   list-style: none;
-  padding-top: 30px;
 }
 a{
   text-decoration: none;
   color: #fff;
-  font-size: 14pt;
+  font-size: 1.2vw;
   font-family: myriadpro;
-  margin-right: -10px;
+  margin-right: -1vw;
 }
 #a{
-  float: left;
   position: absolute;
-  right: 1050px;
-  top: 50px;
+  right: 25vw;
+  top: 3.5vw;
+  height: 6vw;
+  width: 12vw;
+}
+.images{
+  position: relative;
+  font-size: 10vw;
 }
 #g{
   position: absolute;
-  right: 540px;
-  top: 90px;
+  width: 5vw;
+  height: 5vw;
+  right: 45vw;
+  top: 5vw;
 }
 #g1{
   position: absolute;
-  right: 100px;
-  top: 300px;
+  right: 4vw;
+  top: 19vw;
+  width: 5vw;
+  height: 5vw;
 }
 #g2{
   position: absolute;
-  right: 600px;
-  top: 590px;
+  right: 40vw;
+  top: 40vw;
+  width: 5vw;
+  height: 5vw;
 }
 #g3{
   position: absolute;
-  right: 200px;
-  top: 650px;
+  right: 18vw;
+  top: 45vw;
+  width: 5vw;
+  height: 5vw;
 }
 #c{
   position: absolute;
-  right: 120px;
-  top: 110px;
+  right: 15vw;
+  top: 8vw;
+  width: 10vw;
+  height: 10vw;
 }
 #d{
   position: absolute;
-  right: 60px;
-  top: 500px;
+  right: 6vw;
+  top: 37vw;
+  width: 10vw;
+  height: 10vw;
 }
 #e{
   position: absolute;
-  right: 70px;
-  top: 700px;
+  right: 7vw;
+  top: 49vw;
+  width: 6vw;
+  height: 5vw;
 }
 #f{
   position: absolute;
-  right: 660px;
-  top: 330px;
+  right: 45vw;
+  top: 20vw;
+  width: 8vw;
+  height: 8vw;
 }
 #h{
   position: absolute;
-  right: 350px;
-  top: 590px;
+  right: 30vw;
+  top: 40vw;
+  width: 10vw;
+  height: 10vw;
 }
 #p1{
   color: yellow;
-  font-size: 29.91pt;
+  font-size: 35%;
   position: absolute;
-  right: 410px;
-  top: 210px;
+  right: 26vw;
+  top: 13vw;
+  width: 18vw;
+  height: 5vw;
   font-family: grandhotel;
 }
 #p2{
   color: #fff;
-  font-size: 15.13pt;
+  font-size: 18%;
   position: absolute;
-  right: 230px;
-  top: 270px;
+  right: 13vw;
+  top: 19vw;
   font-family: myriadpro;
 
 }
@@ -155,260 +166,276 @@ button{
   background-color: #ffc200;
   color: black;
   position: absolute;
-  right: 410px;
-  top: 370px;
-  width: 160px;
-  height: 40px;
+  right: 33.5vw;
+  top: 28vw;
+  width: 10vw;
+  height: 3vw;
+  font-size: 15%;
   font-family: myriadpro;
 }
 /*best seller*/
 .bs{
   background-color: #fff;
-  padding-top: 80px;
+  padding-top: 4vw;
+  font-size: 20vw;
 }
 #p3{
   color: black;
-  font-size: 25pt;
+  font-size: 20%;
   text-align: center;
   font-family: grandhotel;
 }
 #p4{
   color: black;
-  font-size: 21pt;
+  font-size: 15%;
   text-align: center;
   font-family: myriadpro;
 }
 #p5{
   font-family: grandhotel;
-  font-size: 20pt;
+  font-size: 20%;
 }
 #p6{
   font-family: myriadpro;
+  font-size: 15%;
 
 }
 .bsimg{
   text-align: center;
   background-color: #fff;
+  font-size: 10vw;
+
 }
 .bsimg img{
   border-radius: 50%;
+  height: 20vw;
+  width: 20vw;
 }
 .item5{
   text-align: center;
   background-color: #fff;
+  font-size: 10vw;
 }
 .item5 img{
   border-radius: 50%;
+  height: 20vw;
+  width: 20vw;
 }
 .item6{
   text-align: center;
-  height: 600px;
   background-color: #fff;
+  font-size: 10vw;
 }
 .item6 img{
   border-radius: 50%;
-}
-.item7 img{
-  height: 1800px;
-  width: 1283px;
+  height: 20vw;
+  width: 20vw;
 }
 /*oriental tast*/
 .item7{
   position: relative;
-  margin-top: -16;
+  width: 100vw;
+  margin-top: 2vw;
+  font-size: 50vw;
 }
 #pr{
-  width: 100%;
+  width: 100vw;
+  height: 70vw;
 }
 #o{
-  height: 360px;
-  width: 360px;
+  height: 40%;
+  width: 35%;
   border-radius: 50%;
   position: absolute;
-  top: 120px;
-  right: 800px;
+  top: 3vw;
+  right: 60vw;
 }
 #p7{
   position: absolute;
-  top: 150px;
-  right: 440px;
+  top: 5vw;
+  right: 33vw;
   color: #ffc200;
-  font-size: 45pt;
+  font-size: 8%;
   font-family: grandhotel;
 }
 #p8{
   position: absolute;
-  top: 280px;
-  right: 280px;
+  top: 12vw;
+  right: 12vw;
   color: #fff;
-  font-size: 16pt;
+  font-size: 4%;
   font-family: myriadpro;
 }
 #p9{
   position: absolute;
-  top: 520PX;
-  right: 630PX;
-  font-size: 40pt;
+  top: 39vw;
+  right: 47vw;
+  font-size: 8%;
   color: #ffc200;
   font-family: grandhotel;
 }
 #p10{
   position: absolute;
-  top: 620PX;
-  right: 430PX;
+  top: 46vw;
+  right: 24vw;
   text-align: center;
-  font-size: 15pt;
+  font-size: 4%;
   color: #fff;
   font-family: myriadpro;
 }
 #p11{
   position: absolute;
-  top: 1280PX;
-  right: 835PX;
-  font-size: 45pt;
+  top: 96vw;
+  right: 65vw;
+  font-size: 8%;
   color: #ffc200;
   font-family: grandhotel;
 }
 #p12{
   position: absolute;
-  top: 1420PX;
-  right: 720PX;
+  top: 104vw;
+  right: 50vw;
   color: #fff;
-  font-size: 16pt;
+  font-size: 4%;
   font-family: myriadpro;
 }
 #bt{
   position: absolute;
-  top: 1550PX;
-  right: 830PX;
+  top: 115vw;
+  right: 72vw;
+  font-size: 1vw;
+  font-weight: bold;
   font-family: myriadpro;
 }
 .item7 button{
   position: absolute;
-  width: 210PX;
-  top: 420PX;
-  right: 470PX;
+  top: 24vw;
+  right: 40vw;
+  font-size: 1vw;
+  font-weight: bold;
 }
 #q{
-  height: 360px;
-  width: 360px;
+  height: 30vw;
+  width: 30vw;
   border-radius: 50%;
   position: absolute;
-  top: 1310px;
-  right: 200px;
+  top: 97vw;
+  right: 12vw;
 }
 .outlet{
   position: absolute;
-  top: 840px;
-  right: 900px;
+  top: 80vw;
+  right: 65vw;
   color: #ffff;
   border: 1px solid #ffffff;
   border-width: 3px;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 15vw;
+  width: 15vw;
   text-align: center;
-  font-size: 20pt;
+  font-size: 2vw;
   font-family: myriadpro;
 }
 .chef{
   position: absolute;
-  top: 840px;
-  right: 670px;
+  top: 80vw;
+  right: 48vw;
   color: #ffff;
   border: 1px solid #ffffff;
   border-width: 3px;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 15vw;
+  width: 15vw;
   text-align: center;
-  font-size: 20pt;
+  font-size: 2vw;
   font-family: myriadpro;
 }
 .menu{
   position: absolute;
-  top: 840px;
-  right: 440px;
+  top: 80vw;
+  right: 31vw;
   color: #ffff;
   border: 1px solid #ffffff;
   border-width: 3px;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 15vw;
+  width: 15vw;
   text-align: center;
-  font-size: 20pt;
+  font-size: 2vw;
   font-family: myriadpro;
 }
 .conry{
   position: absolute;
-  top: 840px;
-  right: 210px;
+  top: 80vw;
+  right: 13vw;
   color: #ffff;
   border: 1px solid #ffffff;
   border-width: 3px;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 15vw;
+  width: 15vw;
   text-align: center;
-  font-size: 20pt;
+  font-size: 2vw;
   font-family: myriadpro;
 }
 #gg1{
   position: absolute;
-  top: 550px;
-  right: 950px;
+  top: 42vw;
+  right: 70vw;
 }
 #gg2{
   position: absolute;
-  top: 630px;
-  right: 100px;
+  top: 45vw;
+  right: 15vw;
 }
 #gg3{
   position: absolute;
-  top: 1150px;
-  right: 1100px;
+  top: 80vw;
+  right: 82vw;
 }
 #cc{
   position: absolute;
-  top: 500px;
-  right: 370px;
+  top: 38vw;
+  right: 30vw;
 }
 #ee{
   position: absolute;
-  top: 1150px;
-  right: 130px;
+  top: 40vw;
+  right: 13vw;
 }
 #hh{
   position: absolute;
-  top: 1150px;
-  right: 470px;
+  top: 70vw;
+  right: 30vw;
 }
 #n{
   position: absolute;
-  top: 1050px;
-  right: 850px;
+  top: 71vw;
+  right: 60vw;
 }
 #dd{
   position: absolute;
-  top: 930px;
-  right: 80px;
+  top: 80vw;
+  right: 6vw;
 }
 #ff{
   position: absolute;
-  top: 650px;
-  right: 1100px;
+  top: 50vw;
+  right: 80vw;
 }
 /*lenora field*/
 .item8{
+  width: 100vw;
   position: relative;
+  margin-top: 50%;
 }
 #p13{
-  padding-top: 350px;
-  font-size: 30.78pt;
+  padding-top: 23vw;
+  font-size: 3vw;
   font-family: myriadpro;
 }
 #p14{
-  font-size: 40pt;
+  font-size: 4vw;
   font-family: grandhotel;
 }
 .text{
@@ -426,112 +453,145 @@ button{
 .item9{
   text-align: center;
   position: relative;
-  margin-right: 0;
-  margin-left: 0;
   background-color: rgb(244, 244, 244);
-  height: 650px;
+  height: 51vw;
 }
 #p15{
-  font-size: 50pt;
-  margin-top: 150px;
+  font-size: 5vw;
+  margin-top: 9vw;
   font-family: grandhotel;
 }
 #p16{
-  font-size: 20pt;
+  font-size: 2.5vw;
   font-family: myriadpro;
 }
 #form{
-  height: 40px;
-  width: 400px;
-  padding-left: 20px;
-  font-size: 14pt;
+  height: 3vw;
+  width: 30vw;
+  padding-left: 1vw;
+  font-size: 1.5vw;
   background-color: #f4f4f4;
   border-color: #dfdada;
-  border-width: 1px;
+  border-width: .1vw;
   font-family: myriadpro;
 }
 #sub{
-  height: 47px;
-  margin: -3px;
-  width: 200px;
-  font-size: 14pt;
+  height: 3.4vw;
+  width: 10vw;
+  font-size: 1.2vw;
   background-color: #ffc200;
-  border-color: #f4f4f4;
+  border: none;
 }
 #ra{
   position: absolute;
-  right: 900px;
-  top: 10px;
+  right: 70vw;
+  top: 1vw;
+  height: 7vw;
+  width: 7vw;
 }
 #rb{
   position: absolute;
-  right: 300px;
-  top: 10px;
+  right: 20vw;
+  top: 1vw;
+  height: 12vw;
+  width: 12vw;
 }
 #re{
   position: absolute;
-  right: 1150px;
-  top: 140px;
+  right: 80vw;
+  top: 20vw;
+  height: 9vw;
+  width: 7vw;
 }
 #ra1{
   position: absolute;
-  right: 100px;
-  top: 160px;
+  right: 10vw;
+  top: 15vw;
+  height: 7vw;
+  width: 7vw;
 }
 #rc{
   position: absolute;
-  right: 100px;
-  top: 340px;
+  right: 10vw;
+  top: 25vw;
+  height: 12vw;
+  width: 9vw;
 }
 #rd{
   position: absolute;
-  right: 230px;
-  top: 510px;
+  right: 15vw;
+  top: 40vw;
+  height: 8vw;
+  width: 7vw;
 }
 #rg{
   position: absolute;
-  right: 900px;
-  top: 470px;
+  right: 70vw;
+  top: 40vw;
+  height: 9vw;
+  width: 10vw;
 }
 #ra2{
   position: absolute;
-  right: 1150px;
-  top: 540px;
+  right: 50vw;
+  top: 40vw;
+  height: 7vw;
+  width: 7vw;
 }
 #rf{
   position: absolute;
-  right: 430px;
-  top: 510px;
+  right: 30vw;
+  top: 40vw;
+  height: 7vw;
+  width: 8vw;
 }
 /*footer*/
 #p17{
   font-family: myriadpro;
+  font-size: 1.7vw;
+
 }
 #p18{
   font-family: myriadpro;
-  font-size: 14pt;
+  font-size: 1.7vw;
 }
 .item10{
-  margin-top: 140px;
-  height: 500px;
-  padding-left: 100px;
+  margin-top: 6vw;
+  height: 9vw;
+  padding-left: 7vw;
   color: #fff;
+}
+.item10 p{
+  font-size: 1,7vw;
 }
 .item11{
-  margin-top: 140px;
+  margin-top: 6vw;
   color: #fff;
   font-family: myriadpro;
+  font-size: 1.7vw;
+}
+.item11 p{
+  font-size: 1.7vw;
 }
 .item12{
-  margin-top: 140px;
+  margin-top: 6vw;
   color: #fff;
   font-family: myriadpro;
+  font-size: 1.7vw;
+}
+.item12 p{
+  font-size: 1.7vw;
 }
 .item13{
-  margin-top: 140px;
+  margin-top: 6vw;
   color: #fff;
   font-family: myriadpro;
+  font-size: 1.7vw;
 }
+.item13 p{
+  font-size: 1.7vw;
+}
+
 
 
 
